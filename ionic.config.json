@@ -1,0 +1,7 @@
+{
+  "name": "BALANCE",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
