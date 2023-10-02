@@ -16,5 +16,24 @@
   <div id="container">
     <strong>Ready to create an app?</strong>
     <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <ion-img
+      src="assets/img/speaker.jpg"
+      alt="Speaker left"
+    ></ion-img>
+    <ion-img
+      src="assets/img/speaker.jpg"
+      alt="Speaker Right"
+    ></ion-img>
   </div>
+    <!-- Switch (Interrupteur) -->
+  <ion-item>
+    <ion-label>Activer</ion-label>
+    <ion-toggle [(ngModel)]="isActive" (ionChange)="onToggleChange()"></ion-toggle>
+  </ion-item>
+  <!-- Slider (Curseur) -->
+  <ion-item>
+    <ion-label>Volume</ion-label>
+    <ion-range [(ngModel)]="volume" min="0" max="100" (ionChange)="onVolumeChange($event)"></ion-range>
+  </ion-item>
+
 </ion-content>
