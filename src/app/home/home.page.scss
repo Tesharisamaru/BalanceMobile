@@ -25,3 +25,31 @@
 #container a {
   text-decoration: none;
 }
+.image-container {
+  display: flex; /* Utilisation de Flexbox pour aligner les images horizontalement */
+  justify-content: space-between; /* Espace les éléments (images) à l'extrémité gauche et droite du conteneur */
+  align-items: center; /* Centre les éléments verticalement */
+}
+
+ion-img {
+  max-width: 48%; /* Définit la largeur maximale à 48% de la largeur de l'écran pour laisser un petit espace entre les images */
+  height: auto; /* Maintient le ratio hauteur/largeur pour une taille adaptative */
+}
+
+.label-bold {
+  font-weight: bold;
+}
+.toggle-label {
+  text-align: center;
+  font-weight: bold; 
+}
+.toggleBold{
+  text-align: center;
+  font-weight: bold; /* Optionnel : pour mettre en gras */
+}
+.right.container {
+  position: relative; /* Nécessaire pour positionner le contenu interne */
+}
+
+
+

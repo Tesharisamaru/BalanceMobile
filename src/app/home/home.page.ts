@@ -8,7 +8,8 @@ import { Component } from '@angular/core';
 export class HomePage {
   volume: number = 10; // Valeur initiale du slider
   isActive: boolean = false; // Valeur initiale de l'interrupteur
-
+  sliderValue1 = 0;
+  sliderValue2 = 0;
   // Fonction appelée lorsque la valeur du slider change
   onVolumeChange(event: CustomEvent) {
     console.log('Nouvelle valeur du slider :', event.detail.value);

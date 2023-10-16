@@ -1,7 +1,7 @@
 export interface Variables {
-    Volume:number;
-    Balance:number;
-    Bass:number;
-    Mid:number;
-    Treble:number;
+    volume:number;
+    balance:number;
+    bass:number;
+    mid:number;
+    treble:number;
 }
